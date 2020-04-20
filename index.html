@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Burger Shop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src=js/myscripts.js></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="group-header">
+            <span><u>Price</u></span>
+        </div>
+
+        <h4>
+            <span>Any Veg Burger</span>
+            <span>Rs. 100</span>
+        </h4>
+        <p>Juicy Veg Burgers with lots of Veggies
+        </p>
+        <h4>
+            <span>Any Egg Burger</span>
+            <span>Rs. 150</span>
+        </h4>
+        <p>Burgers with a deliciously cooked poached egg on top of the veg patty
+        </p>
+        <h4>
+            <span>Any Chicken Burger</span>
+            <span>Rs. 200</span>
+        </h4>
+        <p>Our Best Seller juicy Chicken patty burgers</p><br>
+        <p id="note">* We serve Crispy Supreme, Surprise, WHOOPER, Chili Cheese and Tanndoor Grill variants of each type
+        </p>
+    </div>
+    <br>
+    <div class="shopping-cart">
+        <!-- Title -->
+        <div class="title">
+            Menu
+        </div>
+
+        <!-- Product #1 -->
+        <div class="item">
+            <div class="image">
+                <img src="images/crispy.jpeg" height="90" width="90" alt="" />
+            </div>
+
+            <div class="description">
+                <span>Crispy Supreme</span>
+            </div>
+
+            <div class="select">
+                <select id="select1">
+                    <option value="veg">Veg</option>
+                    <option value="egg">Egg</option>
+                    <option value="chicken">Chicken</option>
+                </select>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="images/plus.svg" alt="" />
+                </button>
+                <input type="number" min="0" max="5" name="name" value="0" oninput="(validity.valid)||(value='');">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="images/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="addToCart">
+                <button id="add1" type="button">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <!-- Product #2 -->
+        <div class="item">
+            <div class="image">
+                <img src="images/surprise.jpeg" height=90 width=90 alt="" />
+            </div>
+
+            <div class="description">
+                <span>Surprise&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </div>
+
+            <div class="select">
+                <select id="select1">
+                    <option value="veg">Veg</option>
+                    <option value="egg">Egg</option>
+                    <option value="chicken">Chicken</option>
+                </select>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="images/plus.svg" alt="" />
+                </button>
+                <input type="number" min="0" max="5" name="name" value="0" oninput="(validity.valid)||(value='');">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="images/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="addToCart">
+                <button id="add2" type="button">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <!-- Product #3 -->
+        <div class="item">
+            <div class="image">
+                <img src="images/whooper.jpeg" height=90 width=90 alt="" />
+            </div>
+
+            <div class="description">
+                <span>Whooper&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </div>
+
+            <div class="select">
+                <select id="select1">
+                    <option value="veg">Veg</option>
+                    <option value="egg">Egg</option>
+                    <option value="chicken">Chicken</option>
+                </select>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="images/plus.svg" alt="" />
+                </button>
+                <input type="number" min="0" max="5" name="name" value="0" oninput="(validity.valid)||(value='');">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="images/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="addToCart">
+                <button id="add3" type="button">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <!-- Product #4 -->
+        <div class="item">
+            <div class="image">
+                <img src="images/chilicheese.jpeg" height=90 width=90 alt="" />
+            </div>
+
+            <div class="description">
+                <span>Chili Cheese&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </div>
+
+            <div class="select">
+                <select id="select1">
+                    <option value="veg">Veg</option>
+                    <option value="egg">Egg</option>
+                    <option value="chicken">Chicken</option>
+                </select>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="images/plus.svg" alt="" />
+                </button>
+                <input type="number" min="0" max="5" name="name" value="0" oninput="(validity.valid)||(value='');">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="images/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="addToCart">
+                <button id="add4" type="button">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <!-- Product #5 -->
+        <div class="item">
+            <div class="image">
+                <img src="images/tandoor.jpeg" height=90 width=90 alt="" />
+            </div>
+
+            <div class="description">
+                <span>Tandoor Grill&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </div>
+
+            <div class="select">
+                <select id="select1">
+                    <option value="veg">Veg</option>
+                    <option value="egg">Egg</option>
+                    <option value="chicken">Chicken</option>
+                </select>
+            </div>
+
+            <div class="quantity">
+                <button class="plus-btn" type="button" name="button">
+                    <img src="images/plus.svg" alt="" />
+                </button>
+                <input type="number" min="0" max="5" name="name" value='0' oninput="(validity.valid)||(value='');">
+                <button class="minus-btn" type="button" name="button">
+                    <img src="images/minus.svg" alt="" />
+                </button>
+            </div>
+
+            <div class="addToCart">
+                <button id="add5" type="button">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="vc_wrapper">
+        <button id="view_cart"><span>View Cart </span></button>
+    </div>
+
+    <div id="snackbar">Please select the quantity</div>
+
+    <script type="text/javascript">
+
+
+        $('.minus-btn').on('click', function (e) {
+            e.preventDefault();
+            var $this = $(this);
+            var $input = $this.closest('div').find('input');
+            var value = parseInt($input.val());
+
+            if (value > 1) {
+                value = value - 1;
+            } else {
+                value = 0;
+            }
+
+            $input.val(value);
+
+        });
+
+        $('.plus-btn').on('click', function (e) {
+            e.preventDefault();
+            var $this = $(this);
+            var $input = $this.closest('div').find('input');
+            var value = parseInt($input.val());
+
+            if (value < 5) {
+                value = value + 1;
+            } else {
+                value = 5;
+            }
+
+            $input.val(value);
+        });
+
+        $('.like-btn').on('click', function () {
+            $(this).toggleClass('is-active');
+        });
+
+
+
+        document.getElementById('add1').addEventListener('click', addToCart, true);
+        document.getElementById('add2').addEventListener('click', addToCart, true);
+        document.getElementById('add3').addEventListener('click', addToCart, true);
+        document.getElementById('add4').addEventListener('click', addToCart, true);
+        document.getElementById('add5').addEventListener('click', addToCart, true);
+
+        
+        document.getElementById('view_cart').addEventListener('click', viewCart, true);
+        
+
+    </script>
+</body>
+
+</html>

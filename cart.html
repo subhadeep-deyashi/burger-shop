@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Details</title>
+    <link rel="stylesheet" type="text/css" href="css/cart.css">
+    <script src="js/cart.js"></script>
+</head>
+<body>
+    <br><br>
+    <div id="header"><b><u>Cart Details</u></b></div>
+    <br><br>
+    <table id = "cart">
+        <tr>
+            <th>Burger Type</th>
+            <th>Burger Category</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+            <th>Remove</th>
+        </tr>
+    </table>
+    <br><br>
+    <div id="desc"></div>
+    <br><br>
+    <div id="placeOrder">
+        <button id="place"><span>Place Order </span></button>
+    </div>
+    <script>
+        window.onload=display;
+        document.getElementById('place').addEventListener('click', place, true);
+    </script>
+</body>
+</html>

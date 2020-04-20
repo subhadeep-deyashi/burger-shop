@@ -1,0 +1,53 @@
+body {
+    background-image: url("../images/home_img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 90%;
+    background-color: black;
+}
+
+form {
+    position: fixed;
+    bottom: 0;
+    color: palevioletred;
+    font-size: xx-large;
+    left: 12%;
+}
+
+input[type="text"],
+textarea {
+    background-color: black;
+    color: palevioletred;
+    width: 620px;
+    height: 50px;
+    font-size: xx-large;
+    border-color: grey;
+    border-width: 10px;
+    border-style: solid;
+    text-align: center;
+}
+
+button {
+    bottom: 0;
+    background-color: grey;
+    color: black;
+    width: 200px;
+    height: 72px;
+    font-size: xx-large;
+}
+@media (max-width: 800px) {
+    .form-row{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;  
+    }
+    #phonenumber, #enter{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;      
+    }
+}

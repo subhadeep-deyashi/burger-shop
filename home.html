@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Shop</title>
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <script>
+        function check() {
+            var number = document.getElementById("phonenumber").value;
+            var reg = new RegExp('^[0-9]{10}$');
+            if (reg.test(number)) {
+                window.open("index.html");
+            } else {
+                alert("Invalid Mobile Number");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        <div class="form-row">
+            Mobile Number
+            <input type="text" id="phonenumber" class="text-box">
+            <button onclick="check()" id="enter" class="btn">Enter</button>
+        </div>
+    </form>
+</body>
+
+</html>
